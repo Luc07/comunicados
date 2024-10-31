@@ -34,10 +34,3 @@ Este projeto foi desenvolvido por [Mateus Braga](https://github.com/MteusBraga) 
 ### Containerização
 
 A aplicação é totalmente containerizada, com Docker e Docker Compose gerenciando o backend, frontend e os bancos de dados MySQL.
-
-## Instruções para Configuração Local
-
-### Pré-requisitos
-
-- Docker e Docker Compose instalados.
-- MySQL instalado para configurações opcionais fora do contêiner.

@@ -1,0 +1,105 @@
+# Diretórios e arquivos gerados pelo Maven
+target/
+!target/classes/
+!target/test-classes/
+!target/surefire-reports/
+*.jar
+*.war
+*.ear
+
+# Diretórios e arquivos gerados pelo Gradle
+.gradle/
+build/
+!build/classes/
+!build/resources/
+!build/tmp/
+!build/generated/
+!build/libs/
+!build/reports/
+!build/test-results/
+!build/test-results/*
+!build/test-results/test/
+!build/test-results/test/*
+!build/test-results/test/*.xml
+!build/test-results/test/binary/
+!build/test-results/test/binary/*
+!build/tmp/
+!build/tmp/*
+!build/tmp/kapt/
+!build/tmp/kapt/*
+!build/tmp/expandedArchives/
+!build/tmp/expandedArchives/*
+!build/tmp/worker/
+!build/tmp/worker/*
+
+# Arquivos de configuração IDE
+/.idea/
+/.idea/
+/*.iml
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+
+# Diretórios e arquivos do Eclipse
+/.classpath
+/.project
+/.settings/
+/.settings/
+
+# Diretórios e arquivos do IntelliJ IDEA
+/.idea/
+/*.iml
+/*.ipr
+/*.iws
+
+# Arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.log
+*.tmp
+
+# Arquivos de configuração locais
+*.local
+*.env
+
+# Arquivos de configuração do sistema
+/.vscode/
+/.vscode/
+*.code-workspace
+
+# Arquivos específicos do Spring Boot
+/config/application-*.properties
+/config/application-*.yml
+application.properties
+
+# Arquivos do banco de dados H2
+*.h2.db
+*.mv.db
+*.trace.db
+
+# Arquivos específicos do OS
+# Windows
+*.exe
+*.dll
+*.cmd
+*.bat
+*.com
+
+# macOS
+*.dmg
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# Logs do Maven
+/logs/
+*.log
+
+# Arquivos gerados pelo SonarQube
+/.scannerwork/
+/.scannerwork/

@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ./rh-comunicado-front
+    ports:
+      - "3000:3000"
+    env_file:
+      - ./rh-comunicado-front/.env
+    depends_on:
+      - backend
+
+  backend:
+    build:
+      context: ./rh-comunicado-back
+    ports:
+      - "9090:9090"
+    environment:
+      - SPRING_DATASOURCE_URL_DBINV_JDBC-URL=jdbc:mysql://
+      - SPRING_DATASOURCE_URL_DBINV_USERNAME=
+      - SPRING_DATASOURCE_URL_DBINV_PASSWORD=
+      - SPRING_DATASOURCE_URL_DBNELFARMA_JDBC-URL=jdbc:mysql://
+      - SPRING_DATASOURCE_URL_DBNELFARMA_USERNAME=
+      - SPRING_DATASOURCE_URL_DBNELFARMA_PASSWORD=
